@@ -1,0 +1,219 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: relative;
+    margin: 0;
+    top: 0;
+}
+
+body {
+    color: white;
+    margin: 10px;
+    padding: 0;
+    background-color: #000;
+}
+
+header {
+    background-color: #0B001A;
+    color: white;
+    margin: 0px;
+    top: 0px;
+    height: 0px;
+    width: 100%;
+}
+
+
+/* .presentacion {
+    background-color: #0B001A;
+    color: rgb(255, 255, 255);
+    align-items: left;
+} */
+
+
+a {
+    color: rgb(255, 255, 255);
+    outline: none;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 115px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 10px;
+    padding: 65px 0px;
+}
+
+li a {
+    font-size: 60px;
+    justify-content: center;
+}
+
+.figura1 {
+    padding: auto;
+    position: relative;
+    align-self: flex-end;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ff05c1;
+}
+
+
+button {
+    width: 400px;
+    height: 85px;
+    border-radius: 80px;
+    background-color: #ff00c8;
+    border: none;
+}
+
+button {
+    font-size: 35px;
+    font-weight: 900;
+    transition: background-color 0.5s;
+
+}
+
+button:hover {
+    background-color: #D23EC6;
+}
+
+
+
+#formulario {
+    background-color: #0B001A;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#formulario h3 {
+    color: #ff08e6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#formulario label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#formulario input[type="text"],
+#formulario input[type="email"],
+#formulario input[type="number"]
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#formulario button[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #fd1bf2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#formulario button[type="submit"]:hover {
+    background-color: #ff13d8;
+}
+
+
+.imagen1 {
+    float: left;
+}
+
+.imagen2 {
+    float: left;
+}
+
+.imagen3 {
+    float: left;
+}
+
+.imagen4 {
+    position: relative;
+    float: right;
+}
+
+
+.juego1 {
+    float: left;
+    width: 40%;
+}
+
+
+ul.navegador {
+    background-color: #000;
+    border-bottom: 2px solid #ff00c8;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+.navegador li a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    display: block;
+}
+
+
+.navegador a:hover {
+    background-color: #ff00c8;
+    color: black;
+}
+
+
+.navegador a.activo {
+    border: 3px solid #fff;
+
+}
+
+.navegador .link-derecha {
+    float: right;
+}
+
+.navegador .link-logo {
+    font-size: 40px;
+}
+
+#cuerpo {
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+}
+
+#texto{
+    width: 60%;
+}
+
+#imagen{
+    width: 30%;
+}
